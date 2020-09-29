@@ -9,5 +9,5 @@ Members:
 - Fatemeh Omidi (student number: 300159149)
 - Mert Yilmaz  (student number: 300167934)
 
-Product definition:  Our product is an app that helps people find gym partners because working out alone can be sometimes demotivating. We aim to connect people and allow them to perform better workouts.
+Product definition:  Our product is an app that helps people find gym partners because working out alone can be sometimes demotivating. We aim to connect people and allow them to perform better workouts. Come spot me?
 
