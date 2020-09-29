@@ -1,5 +1,3 @@
-# workoutbuddy.github.io
-
 Team Name: Workout Buddy
 Product Name: Workout Buddy
 
