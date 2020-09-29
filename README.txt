@@ -4,7 +4,7 @@ Product Name: Workout Buddy
 Members:
 - Celine Wan Min Kee (Student number: 300193369)
 - Ken Chan Thim (Student number: 300208086)
-- Omar Khater
+- Omar Khater (Student number: 300188875)
 - Cheshita Gooransing
 - Fatemeh Omidi (student number: 300159149)
 - Mert Yilmaz 
