@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav{
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: linen;  
+  margin: 0;
+  vertical-align: middle;
+}
+
+.nav img{
+  float:left;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.nav li {
+  float:left;
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+}
+
+.nav a:hover{
+  background-color: violet;
+}
+
+.active{
+  background-color: chartreuse;
+}
+
+.logo-image{
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1.5em
+}
+
+.header {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.members-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.member {
+  margin: 2em;
+  max-width: 40%;
+}
+
+.member-name{
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+
+.member-description {
+  text-align: left;
+  display: block;
+}
+
+.member-photo {
+  float: left;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 2em
+}
+
+table,th,td{
+  border:1px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
