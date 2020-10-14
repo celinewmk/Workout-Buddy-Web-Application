@@ -27,8 +27,8 @@ html, body {
 }
 
 .nav li {
-  float:left;
   display: inline;
+  padding: 50px;
 }
 
 .nav a {
@@ -39,11 +39,11 @@ html, body {
 }
 
 .nav a:hover{
-  background-color: violet;
+  background-color: skyblue;
 }
 
 .active{
-  background-color: chartreuse;
+  color: blue;
 }
 
 .logo-image{
@@ -90,6 +90,10 @@ html, body {
   height: 100px;
   width: 100px;
   margin: 2em
+}
+
+.member-link{
+  margin-right: 20px;
 }
 
 table,th,td{
