@@ -112,3 +112,39 @@ p {
 .ul-1 {
   margin-left: 60px; 
 }
+
+
+
+.big_image {
+  margin:auto;
+  height: 250px;
+  background-color: darkblue;
+
+}
+
+.l_content {
+  width: 50%;
+  float: left;
+  margin-top: 10px;
+    
+}
+.r_content {
+  width: 50%;
+  float: right;
+  margin-top: 10px;
+  }
+
+  .features_exp {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: small;
+
+  }
+
+  .title {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: grey;
+  }
