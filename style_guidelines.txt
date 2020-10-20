@@ -27,3 +27,6 @@ it should be underlined and the color slightly changes.
 Buttons:
 The buttons will be flat and coloured.
 
+Table:
+We will use #C2BFB9 and #000000 to design the table for pricing page.
+
