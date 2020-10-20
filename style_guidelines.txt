@@ -1,2 +1,29 @@
 Style Guidelines for Workout Buddy Website
+--------------------------------------------
+
+Overall aesthetic of the website:
+The overall aesthetic of our website should be simple and should give a sporty vibe. The website 
+should be aesthetically-pleasing for the user and should give them motivation to workout.
+
+Colours:
+- #C2BFB9
+- #000000
+- #6BA0F5
+- #A73745
+- #ECA5F6
+
+Iconography:
+We are going to use coloured and flat icons to keep the simple aspect of the 
+website aesthetic.
+
+Typography:
+We will use Lato from Google Fonts for the body and Poppins from Google Fonts 
+for the headings.
+
+Links:
+The links should be colored and not underlined. When we hover over a link, 
+it should be underlined and the color slightly changes.
+
+Buttons:
+The buttons will be flat and coloured.
 
