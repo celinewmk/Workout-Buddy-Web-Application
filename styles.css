@@ -9,43 +9,45 @@ html, body {
 
 .nav{
   text-align: center;
+  background-color: #000000;
   font-size: 1.1em;
 }
 
+
 .nav ul {
-  list-style-type: none;
-  overflow: hidden;
-  background-color: linen;  
   margin: 0;
-  vertical-align: middle;
 }
 
 .nav img{
+  width: 50px;
+  height: 50px;
   float:left;
   margin-left: 3em;
   margin-right: 3em;
 }
 
 .nav li {
-  display: inline;
-  padding: 50px;
+  display: inline-block;
+  list-style-type: none;
+  width: 20%;
 }
 
 .nav a {
-  display: inline-block;
-  text-align: center;
-  padding: 14px 15px;
+  display: block;
   text-decoration: none;
+  color: #F7FFF7;
+  line-height: 50px;
 }
 
 .nav a:hover{
+  color: #000000;
   background-color: skyblue;
 }
 
-.active{
-  color: blue;
+.nav .active{
+  color: #000000;
+  background-color: #6BA0F5;
 }
-
 .logo-image{
   height: 50px;
   width: 50px;
