@@ -10,11 +10,17 @@ html, body {
 }
 
 .main-header{
-  background-color: #000000;
+  background-color: #f4f4f4;
   color:#A73745;
-  text-align:center;
   padding:0.5px;
+  margin-left: 50px;
 }
+
+.main-header h1{
+  word-spacing: 0.3em;
+
+}
+
 
 .main-footer{
   background-color: #000000;
@@ -135,12 +141,23 @@ html, body {
 .member-link{
   margin-right: 20px;
 }
+#title-pricing{
+  text-align: center;
+  font-size: 30px;
+}
+
+.introduction-pricing{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
 
 table{
   margin:auto;
   border-collapse: collapse;
   margin-top:10px;
   width:70%;
+  margin-top: 50px;
 }
 table thead, th{
   background-color: #A73745;
@@ -168,8 +185,8 @@ tr:nth-child(odd) td{
   background-color: #C2BFB9;
 }
 
-td, thead,tr{
-  width:50%;
+td {
+  width:20%;
 }
 
 p {
@@ -213,13 +230,5 @@ p {
     color: grey;
   }
 
-  #title-pricing{
-    text-align: center;
-    font-size: 30px;
-  }
 
-  .introduction-pricing{
-    text-align: center;
-    font-weight: bold;
-  }
   
