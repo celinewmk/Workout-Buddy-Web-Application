@@ -3,8 +3,25 @@
 }
 
 html, body {
+  background-color: #f4f4f4;
   padding: 0;
   margin: 0;
+  font-size: 1.1em;
+}
+
+.main-header{
+  background-color: #000000;
+  color:#A73745;
+  text-align:center;
+  padding:0.5px;
+}
+
+.main-footer{
+  background-color: #000000;
+  color:#A73745;
+  text-align:center;
+  padding:0.5px;
+  margin-top: 60px;
 }
 
 .nav{
@@ -44,10 +61,7 @@ html, body {
   background-color: skyblue;
 }
 
-.nav .active{
-  color: #000000;
-  background-color: #6BA0F5;
-}
+
 .logo-image{
   height: 50px;
   width: 50px;
@@ -122,21 +136,45 @@ html, body {
   margin-right: 20px;
 }
 
-table,th,td{
-  border:1px solid black;
+table{
+  margin:auto;
   border-collapse: collapse;
+  margin-top:10px;
+  width:70%;
+}
+table thead, th{
+  background-color: #A73745;
+  color: #ffffff;
+  border-collapse: collapse;
+  text-align: center;
   padding: 20px;
+  
+}
+
+table td{
+  background-color: #C2BFB9;
+  color: #000000;
+  border-collapse: collapse;
   text-align: center;
   margin: auto;
+  padding: 20px;
+}
+
+tr:nth-child(even) td{
+  background-color: #b8b6b3;
+}
+
+tr:nth-child(odd) td{
+  background-color: #C2BFB9;
+}
+
+td, thead,tr{
+  width:50%;
 }
 
 p {
   margin-left: 50px;
   margin-right: 50px;
-}
-
-.ul-1 {
-  margin-left: 60px; 
 }
 
 
@@ -173,5 +211,15 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     color: grey;
+  }
+
+  #title-pricing{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .introduction-pricing{
+    text-align: center;
+    font-weight: bold;
   }
   
