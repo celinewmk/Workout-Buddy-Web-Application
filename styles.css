@@ -10,15 +10,14 @@ html, body {
 }
 
 .main-header{
-  background-color: #f4f4f4;
+  background-color: #C2BFB9;
   color:#A73745;
   padding:0.5px;
-  margin-left: 50px;
 }
 
 .main-header h1{
   word-spacing: 0.3em;
-
+  margin-left: 50px;
 }
 
 
@@ -193,7 +192,6 @@ p {
   margin-left: 50px;
   margin-right: 50px;
 }
-
 
 
 .big_image {
