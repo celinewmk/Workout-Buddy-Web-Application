@@ -197,22 +197,26 @@ p {
 
 
 .big_image {
-  margin:auto;
-  height: 250px;
-  background-color: darkblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 
 }
 
 .l_content {
-  width: 50%;
+  width: 40%;
   float: left;
   margin-top: 10px;
+  margin-left: 20px;
     
 }
 .r_content {
-  width: 50%;
+  width: 40%;
   float: right;
   margin-top: 10px;
+  margin-right: 20px;
   }
 
   .features_exp {
@@ -220,14 +224,23 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: small;
+    color: rgb(36, 36, 36);
 
   }
+  .features_img {
 
+    border: darkgray;
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+
+  }
   .title {
 
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
-    color: grey;
+    color: black;
   }
 
 
