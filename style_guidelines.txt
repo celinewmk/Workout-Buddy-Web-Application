@@ -28,5 +28,5 @@ Buttons:
 The buttons will be flat and coloured.
 
 Table:
-We will #b8b6b3, #C2BFB9 and #A73745 to design the table for pricing page.
+We will use #b8b6b3, #C2BFB9 and #A73745 to design the table for pricing page.
 
