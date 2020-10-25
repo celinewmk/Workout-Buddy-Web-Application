@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext');
+@import url('http://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 
@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-html, body {
+body {
   background-color: #f4f4f4;
   padding: 0;
   margin: 0;
@@ -18,12 +18,12 @@ html, body {
   background-color: #C2BFB9;
   color:#A73745;
   padding:0.5px;
-  font-family: Poppins;
 }
 
 .main-header h1{
   word-spacing: 0.3em;
   margin-left: 50px;
+  font-family: Poppins;
 }
 
 
