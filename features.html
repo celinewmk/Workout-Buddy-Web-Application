@@ -25,11 +25,53 @@
   </nav>
 
       <div class="big_image">
-        <img height=400px src="images\weightlifter.jpg" ></div>
+         
+        <div class="img_container">
+          <img class="mySlides" src="images/weightlifter.jpg" width="1000px" height="400px">
+          <img class="mySlides" src="images/gym_running.jpg" width="1000px" height="400px">
+          <img class="mySlides" src="images/gym.jpg" width="1000px" height="400px">
+        
+             
+          
+          <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+          <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+          <button class="w3-button demo" onclick="currentDiv(3)">3</button> </div>
+          
+        
+        
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function currentDiv(n) {
+          showDivs(slideIndex = n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          if (n > x.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-red", "");
+          }
+          x[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " w3-red";
+        }
+        </script>
+        
         
       
         <div class="l_content">
-        <img src="" class="features_img">
+        <img src="images/partner.jpg" class="features_img">
         <span class="title">Finding a Partner</span>
         <p class="features_exp">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, possimus sint veritatis nesciunt, 
@@ -38,7 +80,7 @@
         </p>
       </div>
       <div class="r_content">
-        <img src="" class="features_img">
+        <img src="images/report.png" class="features_img">
         <span class="title">Progress Report</span>
         <p class="features_exp">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, possimus sint veritatis nesciunt, 
@@ -48,7 +90,7 @@
       </div>
 
       <div class="l_content">
-        <img src="" class="features_img">
+        <img src="images/recommendations.jpg" class="features_img">
         <span class="title">Gym Recommendations</span>
         <p class="features_exp">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, possimus sint veritatis nesciunt, 
@@ -57,7 +99,7 @@
         </p>
       </div>
       <div class="r_content">
-        <img src="" class="features_img">
+        <img src="images/diet.jpg" class="features_img">
         <span class="title">Diet Plan</span>
         <p class="features_exp">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, possimus sint veritatis nesciunt, 
@@ -66,8 +108,8 @@
         </p>
       </div>
       <div class="l_content">
-        <img src="" class="features_img">
-        <span class="title">Training Programm</span>
+        <img src="images/programm.jpg" class="features_img">
+        <span class="title">Training Program</span>
         <p class="features_exp">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, possimus sint veritatis nesciunt, 
             quia sapiente molestiae rem aspernatur impedit, ea aperiam laudantium illo sequi repellendus facere. 
@@ -75,7 +117,7 @@
         </p>
       </div>
       <div class="r_content">
-        <img src="" class="features_img">
+        <img src="images/membership.jpg" class="features_img">
         <span class="title">Gym Membership</span>
         <p class="features_exp">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, possimus sint veritatis nesciunt, 

@@ -231,7 +231,7 @@ p {
 
     border: darkgray;
     height: 150px;
-    width: 150px;
+    width: 200px;
     float: left;
     margin-right: 10px;
 
@@ -242,6 +242,12 @@ p {
     font-size: large;
     color: black;
   }
+  .mySlides{
+    text-align: center;
+    margin: auto;
+  }
 
-
-  
+  .img_container{
+    text-align: center;
+    margin: auto;
+  }
