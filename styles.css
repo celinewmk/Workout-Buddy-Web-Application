@@ -90,7 +90,7 @@ body {
   font-weight: bold;
   text-align: center;
   font-family: Poppins;
-  font-size:30px;
+  font-size:25px;
 }
 
 .btn{
@@ -245,7 +245,12 @@ p {
   }
 
   .intro-about{
-    margin-top:40px;
+    margin-top:20px;
+  }
+
+  .question-about {
+    margin-left: 50px;
+    
   }
 
 
