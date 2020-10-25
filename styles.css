@@ -398,3 +398,11 @@ p {
   margin: 20px;
   text-decoration: none;
 }
+
+.message {
+  text-align: center;
+}
+
+#message-signature {
+  font-style: italic;
+}
