@@ -387,3 +387,14 @@ p {
     top: 0;
   }
 }
+
+.download {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.download-button {
+  margin: 20px;
+  text-decoration: none;
+}
