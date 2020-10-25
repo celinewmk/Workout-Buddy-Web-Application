@@ -1,24 +1,29 @@
+@import url('http://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
 * {
   box-sizing: border-box;
 }
 
-html, body {
+body {
   background-color: #f4f4f4;
   padding: 0;
   margin: 0;
   font-size: 1.1em;
+  font-family: Lato;
 }
 
 .main-header{
-  background-color: #f4f4f4;
+  background-color: #C2BFB9;
   color:#A73745;
   padding:0.5px;
-  margin-left: 50px;
 }
 
 .main-header h1{
   word-spacing: 0.3em;
-
+  margin-left: 50px;
+  font-family: Poppins;
 }
 
 
@@ -28,6 +33,7 @@ html, body {
   text-align:center;
   padding:0.5px;
   margin-top: 60px;
+  clear: both;
 }
 
 .nav{
@@ -82,6 +88,9 @@ html, body {
 .header {
   text-decoration: underline;
   font-weight: bold;
+  text-align: center;
+  font-family: Poppins;
+  font-size:25px;
 }
 
 .btn{
@@ -115,8 +124,8 @@ html, body {
 }
 
 .member {
-  margin: 2em;
-  max-width: 40%;
+  margin: 1em;
+  max-width: 45%;
 }
 
 .member-name{
@@ -126,25 +135,31 @@ html, body {
 }
 
 .member-description {
+  margin: 0;
+  margin-top: 1em;
   text-align: left;
-  display: block;
+  overflow: hidden;
 }
 
 .member-photo {
   float: left;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  margin: 2em
+  height: 150px;
+  width: 150px;
+  margin: 1em;
 }
 
 .member-link{
   margin-right: 20px;
+  text-decoration: none;
+  color: #6BA0F5;
 }
-#title-pricing{
-  text-align: center;
-  font-size: 30px;
+
+.member-link:hover{
+  text-decoration: underline;
+  color:#4587f3;
 }
+
 
 .introduction-pricing{
   text-align: center;
@@ -195,7 +210,6 @@ p {
 }
 
 
-
 .big_image {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -212,6 +226,7 @@ p {
   margin-left: 20px;
     
 }
+
 .r_content {
   width: 40%;
   float: right;
@@ -219,14 +234,16 @@ p {
   margin-right: 20px;
   }
 
-  .features_exp {
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    font-size: small;
-    color: rgb(36, 36, 36);
+.features_img {
 
+  border: darkgray;
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 10px;
   }
+<<<<<<< HEAD
   .features_img {
 
     border: darkgray;
@@ -234,13 +251,16 @@ p {
     width: 200px;
     float: left;
     margin-right: 10px;
+=======
+>>>>>>> 1fcd17c01068712d12591a37a52cf9d39a5cdce2
 
+  .intro-about{
+    margin-top:20px;
   }
-  .title {
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-    color: black;
+  .question-about {
+    margin-left: 50px;
+    
   }
   .mySlides{
     text-align: center;

@@ -10,7 +10,6 @@ Colours:
 - #000000
 - #6BA0F5
 - #A73745
-- #ECA5F6
 
 Iconography:
 We are going to use coloured and flat icons to keep the simple aspect of the 
