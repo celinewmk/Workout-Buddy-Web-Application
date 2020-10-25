@@ -38,39 +38,37 @@ body {
 
 .nav{
   text-align: center;
-  background-color: #000000;
   font-size: 1.1em;
+  background-color: black; 
 }
 
-
 .nav ul {
+  list-style-type: none;
+  overflow: hidden; 
   margin: 0;
+  vertical-align: middle;
 }
 
 .nav img{
-  width: 50px;
-  height: 50px;
   float:left;
   margin-left: 3em;
-  margin-right: 3em;
+  /* margin-right: 3em; */
 }
 
 .nav li {
-  display: inline-block;
-  list-style-type: none;
-  width: 20%;
+  display: inline;
 }
 
 .nav a {
-  display: block;
+  display: inline-block;
+  padding: 14px 15px;
   text-decoration: none;
-  color: #F7FFF7;
-  line-height: 50px;
+  color: powderblue;
+  letter-spacing: 3px;
 }
 
 .nav a:hover{
-  color: #000000;
-  background-color: skyblue;
+  background-color: violet;
 }
 
 
@@ -243,16 +241,6 @@ p {
   float: left;
   margin-right: 10px;
   }
-<<<<<<< HEAD
-  .features_img {
-
-    border: darkgray;
-    height: 150px;
-    width: 200px;
-    float: left;
-    margin-right: 10px;
-=======
->>>>>>> 1fcd17c01068712d12591a37a52cf9d39a5cdce2
 
   .intro-about{
     margin-top:20px;
@@ -271,3 +259,38 @@ p {
     text-align: center;
     margin: auto;
   }
+
+.bannerHome {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/thumbnail_bannerhero.jpg");
+  height: auto;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 700px;
+}
+
+/* Place text in the middle of the image */
+.bannerText h1{
+  margin-top: 0;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  color: powderblue;
+  font-size: 3em;
+  font-weight: 400;
+}
+.bannerText a{
+  position: absolute;
+  top: 75%;
+  left: 45%;
+}
+.bannerText button{
+  background-color: mediumturquoise;
+  padding: 1em 2em;
+  border-radius: 0.75em;
+  border: none;
+  font-size: 14px;
+  color: ghostwhite;
+}
