@@ -99,7 +99,9 @@ body {
 }
 
 .btn-join{
+  display: block;
   border: 3px solid brown;
+  margin: 15px;
 }
 
 .btn-join:hover{
@@ -114,6 +116,57 @@ body {
   content: "→ "; 
 }
 
+.slides{
+  display: none;
+}
+.slideshow-container{
+  max-width: 1300px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.slideshow{
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.backgroundimage{
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.image-content{
+  width: 80%;
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+.image-text{
+  font-size: 2em;
+  font-weight: bold;
+  padding: 25px;
+  background-color:#A73745;
+  text-shadow: 1px 1px 1px #FFFFFF;
+  margin: 15px;
+} 
+.prev, .next{ 
+  position: absolute;
+  background-color: rgba(0,0,0,0.4);
+  border: 0;
+  color: #F7FFF7;
+  padding: 1em;
+  margin: 0;
+  top: 50%;
+  transition: background 0.3s;
+}
+.prev{
+  left: 0;
+}
+.next{
+  right: 0;
+}
+.prev:hover, .next:hover{ 
+  background-color:  rgba(0,0,0,0.6);
+}
 
 .members-list {
   display: flex;
@@ -260,17 +313,6 @@ p {
     margin: auto;
   }
 
-.bannerHome {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/thumbnail_bannerhero.jpg");
-  height: auto;
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 700px;
-}
-
 /* Place text in the middle of the image */
 .bannerText h1{
   margin-top: 0;
@@ -293,4 +335,16 @@ p {
   border: none;
   font-size: 14px;
   color: ghostwhite;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1060px) {
+  .image-content{
+    position: relative;
+  }
+  .member {
+    max-width: 100%;
+    margin-top: 20px;
+    overflow: auto;
+  }
 }
