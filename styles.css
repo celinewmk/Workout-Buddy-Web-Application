@@ -261,44 +261,83 @@ p {
 
 
 .big_image {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 1em;
+  margin-bottom: 1em;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 
 }
 
-.l_content {
-  width: 45%;
+
+.leftside {
+  width: 40%;
   float: left;
-  margin-top: 20px;
-  height: 300px;
+  margin-top: 5%;
+  height: 100%;
   margin: auto;
-  padding-left: 5%;
-  padding-top: 5%;
+  color: black;
+  margin-bottom: 5%;
+  padding-left: 1%;
+  
     
 }
 
-.r_content {
-  width: 45%;
+.rightside {
+  width: 40%;
   float: right;
-  margin-top: 20px;
-  height: 300px;
+  margin-top: 5%;
+  height: 100%;
   margin: auto;
-  padding-top: 5%;
+  color: black;
+  margin-bottom: 5%;
+  padding-right: 1%;
   
-  }
+  
+  
+}
 
+.leftsection {
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+    float: left;
+    padding-bottom: 5%;
+    
+}
+
+.rightsection {
+    height: auto;
+    padding-bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+    float: left;
+    
+}
+.features_exp {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1vw;
+    
+    
+    
+}
+
+.title{
+  font-weight: bold;
+  color: indigo;
+}
 
 .features_img {
-
-  border: darkgray;
-  height: 150px;
-  width: 200px;
+  
+  height: auto;
+  width: 40%;
+  min-width: 20%;
   float: left;
-  margin-right: 10px;
-  display: block;
+  margin-right: 2%;
+  
+  
   }
 
   .intro-about{
@@ -311,19 +350,20 @@ p {
   }
   .mySlides{
     text-align: center;
-    margin: auto;margin-bottom: 20px;
+    margin: auto;
+    
   }
 
   .img_container{
     text-align: center;
     margin: auto;
-    
-
   }
+  
   .mycontents{
     margin: auto;
-    margin-top: 20px;
-    height: 100%;
+    height: auto;
+    margin-top: 5em;
+    
   }
 /* Place text in the middle of the image */
 .bannerText{
