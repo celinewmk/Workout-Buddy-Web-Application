@@ -266,7 +266,6 @@ p {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-
 }
 
 
@@ -278,9 +277,7 @@ p {
   margin: auto;
   color: black;
   margin-bottom: 5%;
-  padding-left: 1%;
-  
-    
+  padding-left: 1%;    
 }
 
 .rightside {
@@ -291,16 +288,12 @@ p {
   margin: auto;
   color: black;
   margin-bottom: 5%;
-  padding-right: 1%;
-  
-  
-  
+  padding-right: 1%; 
 }
 
 .leftsection {
     height: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1vw;
+    font-size: 0.9em;
     float: left;
     padding-bottom: 5%;
     
@@ -309,24 +302,19 @@ p {
 .rightsection {
     height: auto;
     padding-bottom: 5%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1vw;
-    float: left;
-    
+    font-size: 0.9em;
+    float: left;   
 }
-.features_exp {
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.features_exp {
     color: black;
-    font-size: 1vw;
-    
-    
+    font-size: 0.9em; 
     
 }
 
 .title{
   font-weight: bold;
-  color: indigo;
+  color: #6BA0F5;
 }
 
 .features_img {
