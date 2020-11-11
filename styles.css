@@ -18,6 +18,7 @@ body {
   background-color: #C2BFB9;
   color:#A73745;
   padding:0.5px;
+  
 }
 
 .main-header h1{
@@ -260,72 +261,63 @@ p {
 }
 
 
+
+.mytable{
+  width: 95%;
+}
+
+
+
 .big_image {
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+
 }
 
-
-.leftside {
-  width: 40%;
-  float: left;
-  margin-top: 5%;
-  height: 100%;
+.mySlides{
+  text-align: center;
   margin: auto;
-  color: black;
-  margin-bottom: 5%;
-  padding-left: 1%;    
+  
 }
 
-.rightside {
-  width: 40%;
-  float: right;
-  margin-top: 5%;
-  height: 100%;
-  margin: auto;
-  color: black;
-  margin-bottom: 5%;
-  padding-right: 1%; 
+.features_description{
+  margin: 0;
+  margin-top: 1em;
+  text-align: left;
+  overflow: hidden;
+  font-size: 1.2vw;
+  margin-bottom: 2em;
+  margin-left: 1.5em;
+
 }
 
-.leftsection {
-    height: auto;
-    font-size: 0.9em;
-    float: left;
-    padding-bottom: 5%;
-    
-}
-
-.rightsection {
-    height: auto;
-    padding-bottom: 5%;
-    font-size: 0.9em;
-    float: left;   
-}
-
-.features_exp {
-    color: black;
-    font-size: 0.9em; 
-    
-}
-
-.title{
+.features_name{
+  display: block;
+  text-align: left;
   font-weight: bold;
-  color: #6BA0F5;
+  font-size: 2vw;
+  margin-bottom: 1em;
+  margin-left: 1.5em;
+  
+}
+.features_exp {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 0.7vw;
+    width: 40%;
 }
 
 .features_img {
   
-  height: auto;
-  width: 40%;
-  min-width: 20%;
   float: left;
-  margin-right: 2%;
-  
-  
+  height: auto;
+  width: 30%;
+  margin: 1em;
+  vertical-align: middle; 
   }
 
   .intro-about{
@@ -336,11 +328,7 @@ p {
     margin-left: 50px;
     
   }
-  .mySlides{
-    text-align: center;
-    margin: auto;
-    
-  }
+  
 
   .img_container{
     text-align: center;
@@ -349,10 +337,12 @@ p {
   
   .mycontents{
     margin: auto;
-    height: auto;
     margin-top: 5em;
+    width: 80%;
+    
     
   }
+
 /* Place text in the middle of the image */
 .bannerText{
   position: absolute;
