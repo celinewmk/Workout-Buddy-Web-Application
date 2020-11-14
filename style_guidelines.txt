@@ -2,8 +2,7 @@ Style Guidelines for Workout Buddy Website
 --------------------------------------------
 
 Overall aesthetic of the website:
-The overall aesthetic of our website should be simple and should give a sporty vibe. The website 
-should be aesthetically-pleasing for the user and should give them motivation to workout.
+The overall aesthetic of our website should be simple and should give a sporty vibe. The website should be aesthetically-pleasing for the user.
 
 Colours:
 - #C2BFB9
