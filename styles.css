@@ -288,7 +288,6 @@ p {
   margin-top: 1em;
   text-align: left;
   overflow: hidden;
-  font-size: 1.2vw;
   margin-bottom: 2em;
   margin-left: 1.5em;
 
@@ -298,14 +297,11 @@ p {
   display: block;
   text-align: left;
   font-weight: bold;
-  font-size: 2vw;
   margin-bottom: 1em;
   margin-left: 1.5em;
   
 }
 .features_exp {
-
-  
     color: black;
     font-size: 0.7vw;
     width: 40%;
