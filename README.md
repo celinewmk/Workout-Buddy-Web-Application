@@ -1,4 +1,4 @@
-# Workout Buddy Web Application
+# Workout Buddy Application
 
 - Team Name: Workout Buddy
 - Product Name: Workout Buddy
